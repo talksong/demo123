@@ -158,7 +158,7 @@ export default {
     margin-bottom: 40px;
   }
   .top {
-    height:220px;
+    min-height:220px;
   }
   .base {
     min-height:350px;
