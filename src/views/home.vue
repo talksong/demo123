@@ -45,17 +45,17 @@
            <div> <h3  class="FZJiYDSPTJW">项目经历</h3> </div>
            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-12 fontf"  >
              <div class="panel panel-default">
-              <div class="panel-heading" style="background:#333;color:#fff;">
+              <div class="panel-heading">
                 <h3 class="panel-title">12369环保举报平台</h3>
               </div>
-              <div class="panel-body" style="text-align:left;">
+              <div class="panel-body" >
                 <br><b> 项目简介：</b>此通过微信公众号，对全国各地的大小环境污染举报进行登记，确认，分派调度，现场调查，处理，审批审核，收入档案，回访等一套业务的系统开发，以及对收集的数据进行统计分析，分类整理;
                 <br><b> 我的职责：</b>对现场调查，审批审核，案件回访能项目进行全段开发，最后负责对项目样式进行美化，和兼容性调整；
                 <br><b> 技术内容：</b>angularjs开发的单页应用，后台springmvc，数据库mysql；
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading">
+              <div class="panel-heading" >
                 <h3 class="panel-title">辽宁环保局大数据中心管理系统</h3>
               </div>
               <div class="panel-body">
@@ -184,7 +184,7 @@ export default {
     margin-bottom: 30px; 
     
   }
-  .panel-heading {
+  .panel-default .panel-heading {
     background:#333;
     color:#fff;
   }
